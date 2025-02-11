@@ -1,0 +1,26 @@
+<?php
+/** @var \Company\TermsAcceptance\Block\TermsAcceptance $block */
+$showModal = $block->shouldShowTermsModal();
+
+/** @var \Company\TermsAcceptance\Helper\Data $helper */
+$helper = $this->helper('Company\TermsAcceptance\Helper\Data');
+
+if (!$helper->isModalEnabled()) {
+    return;
+}
+?>
+
+<?php if ($showModal): ?>
+    <div id="terms-acceptance-modal" style="display:none;">
+        <p>Olá, estamos sempre trabalhando para melhorar a sua experiência e garantir a transparência no uso dos nossos serviços. Por isso, atualizamos nossos Termos de Uso e Política de Privacidade.</p>
+        <button id="accept-terms">Aceitar Termos</button>
+    </div>
+
+    <script type="text/x-magento-init">
+        {
+            "#terms-acceptance-modal": {
+                "Company_TermsAcceptance/js/terms_acceptance": {}
+            }
+        }
+    </script>
+<?php endif; ?>

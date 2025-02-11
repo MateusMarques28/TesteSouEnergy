@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="customer_columns">
+        <column name="terms_accepted" component="Magento_Ui/js/grid/columns/select">
+            <settings>
+                <filter>select</filter>
+                <dataType>select</dataType>
+                <label>Termos Aceitos</label>
+                <options class="Company\TermsAcceptance\Model\Config\Source\TermsStatus"/>
+            </settings>
+        </column>
+    </columns>
+</listing>

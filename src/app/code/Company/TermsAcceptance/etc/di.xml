@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Plugin para a sessão do cliente -->
+    <type name="Magento\Customer\Model\Session">
+        <plugin name="company_terms_acceptance_customer_session" type="Company\TermsAcceptance\Plugin\CustomerSessionPlugin"/>
+    </type>
+
+    <!-- Injeção de dependências no Controller -->
+    <type name="Company\TermsAcceptance\Controller\Index\Accept">
+        <arguments>
+            <argument name="jsonFactory" xsi:type="object">Magento\Framework\Controller\Result\JsonFactory</argument>
+            <argument name="termsAcceptanceFactory" xsi:type="object">Company\TermsAcceptance\Model\TermsAcceptanceFactory</argument>
+        </arguments>
+    </type>
+
+    <type name="Magento\Customer\Model\ResourceModel\Grid\Collection">
+        <plugin name="customer_grid_plugin" type="Company\TermsAcceptance\Plugin\CustomerGridPlugin" />
+    </type>
+</config>

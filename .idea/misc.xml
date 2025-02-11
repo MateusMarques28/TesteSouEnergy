@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectResources">
+    <resource url="http://exslt.org/common" location="$PROJECT_DIR$" />
+    <resource url="http://exslt.org/dates-and-times" location="$PROJECT_DIR$" />
+    <resource url="http://exslt.org/dynamic" location="$PROJECT_DIR$" />
+    <resource url="http://exslt.org/math" location="$PROJECT_DIR$" />
+    <resource url="http://exslt.org/sets" location="$PROJECT_DIR$" />
+    <resource url="http://exslt.org/strings" location="$PROJECT_DIR$" />
+    <resource url="http://relaxng.org/ns/compatibility/annotations/1.0" location="$PROJECT_DIR$" />
+    <resource url="urn:idea:xslt-plugin#extensions" location="$PROJECT_DIR$" />
+    <resource url="urn:magento:framework:App/etc/system_file.xsd" location="$PROJECT_DIR$" />
+    <resource url="urn:magento:framework:View/Layout/etc/page_configuration.xsd" location="$PROJECT_DIR$" />
+    <resource url="urn:magento:module:Magento_Backend/etc/menu.xsd" location="$PROJECT_DIR$" />
+    <resource url="urn:magento:module:Magento_Ui/etc/ui_configuration.xsd" location="$PROJECT_DIR$" />
+  </component>
+</project>

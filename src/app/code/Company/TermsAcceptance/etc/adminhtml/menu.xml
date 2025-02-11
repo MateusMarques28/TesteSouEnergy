@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+
+    <menu>
+        <add id="Company_TermsAcceptance::config"
+             title="Configuração de Termos"
+             module="Company_TermsAcceptance"
+             sortOrder="100"
+             action="adminhtml/system_config/edit/section/terms_modal"
+             resource="Magento_Config::config"
+        />
+    </menu>
+</config>
