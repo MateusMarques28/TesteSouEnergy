@@ -43,6 +43,7 @@ O **TermsAcceptance** é um módulo desenvolvido para Magento 2 que adiciona um 
 5. Use essas credenciais para acessar o admin:
 
 **Username: john.smith
+
 Password: password123**
 
 ---
