@@ -19,6 +19,7 @@ O **TermsAcceptance** é um módulo desenvolvido para Magento 2 que adiciona um 
 
 - Magento 2.4+
 - PHP 7.4+
+- Docker
 - Acesso ao terminal e permissões para rodar comandos do Magento
 
 ### Passo a Passo:
@@ -30,6 +31,7 @@ O **TermsAcceptance** é um módulo desenvolvido para Magento 2 que adiciona um 
 2. Copie ou clone o módulo dentro de `app/code/Company/TermsAcceptance`.
 3. Execute os seguintes comandos no terminal:
    ```sh
+   bin/start
    bin/magento module:enable Company_TermsAcceptance
    bin/magento setup:upgrade
    bin/magento setup:di:compile
