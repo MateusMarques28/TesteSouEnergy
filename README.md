@@ -63,7 +63,6 @@ Para ativar ou desativar a exibição do modal:
 
 1. No admin, acesse **Customers** > **All Customers**.
 2. Verifique a nova coluna "Termos Aceitos".
-3. Utilize o filtro para exibir apenas clientes que aceitaram ou não aceitaram os termos.
 
 ---
 
