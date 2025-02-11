@@ -39,7 +39,7 @@ O **TermsAcceptance** é um módulo desenvolvido para Magento 2 que adiciona um 
    bin/magento cache:flush
    bin/magento indexer:reindex
    ```
-4. Acesse o admin do Magento e verifique as novas funcionalidades na grid de clientes e nas configurações do sistema.
+4. Acesse o admin do Magento em https://magento.test/admin e verifique as novas funcionalidades na grid de clientes e nas configurações do sistema.
 
 ---
 
@@ -57,7 +57,7 @@ Para ativar ou desativar a exibição do modal:
 
 ### Testar o Modal:
 
-1. Acesse o site como cliente.
+1. Acesse o site https://magento.test como cliente.
 2. Se o modal estiver ativado, ele deve aparecer após o login na página de My Account.
 3. O botão de aceitação deve registrar a data do aceite na tabela `company_terms_acceptance`.
 
