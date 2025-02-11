@@ -28,12 +28,9 @@ class CustomerLoginObserver implements ObserverInterface
             $termsAcceptance->load($customerId, 'customer_id');
 
             if (!$termsAcceptance->getId()) {
-                // O modal será exibido via template
-                // Aqui você pode adicionar lógica adicional se necessário
-                // Por exemplo, registrar um flag na sessão para exibir o modal
                 $this->session->setShowTermsModal(true);
             } else {
-                // O usuário já aceitou os termos, não é necessário exibir o modal
+
                 $this->session->setShowTermsModal(false);
             }
         }
