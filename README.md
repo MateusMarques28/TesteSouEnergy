@@ -1,4 +1,4 @@
-# Módulo TermsAcceptance para Magento 2
+# Módulo TermsAcceptance Magento 2
 
 ## Visão Geral
 
