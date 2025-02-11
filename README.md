@@ -42,9 +42,9 @@ O **TermsAcceptance** é um módulo desenvolvido para Magento 2 que adiciona um 
 4. Acesse o admin do Magento em https://magento.test/admin e verifique as novas funcionalidades na grid de clientes e nas configurações do sistema.
 5. Use essas credenciais para acessar o admin:
 
-**Username: john.smith
+**Username: john.smith**
 
-Password: password123**
+**Password: password123**
 
 ---
 
